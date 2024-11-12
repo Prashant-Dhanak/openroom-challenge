@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group-container {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Spacing between groups */
+}
+
+.group-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px; /* Spacing after the title */
+}
+
+/* Assuming this is added to your existing CSS file */
+.field-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px; /* Adjust margin as needed */
+}
+
+.field-container {
+  flex: 1;
+  margin-right: 8px; /* Adds spacing between fields, adjust as needed */
+}
+
+.field-container:last-child {
+  margin-right: 0; /* Removes margin from the last field in the row */
+}

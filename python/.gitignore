@@ -1,0 +1,52 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# FastAPI logs
+*.log
+
+# SQLite database file
+*.db
+
+# .env file for environment variables
+.env
+
+# PyCharm / JetBrains IDE files
+.idea/
+
+# VS Code IDE files
+.vscode/
+
+# mypy (for static type checking)
+.mypy_cache/
+
+# pytest and coverage directories
+.coverage
+.coverage.*
+nosetests.xml
+test_*.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# pyenv
+.python-version
+
+# Docker related files (if using Docker)
+docker-compose.yml
+Dockerfile
+
+# FastAPI application cache
+__pycache__
